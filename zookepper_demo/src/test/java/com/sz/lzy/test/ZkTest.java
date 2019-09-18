@@ -15,7 +15,7 @@ public class ZkTest {
 
 	{
 		String connectString = "10.1.14.53:2181";
-		int sessionTimeout = 5000;
+		int sessionTimeout = 50000;
 		Watcher watcher = new Watcher() {
 			@Override
 			public void process(WatchedEvent arg0) {
